@@ -35,5 +35,14 @@ def display_menu():
             print("Invalid choice. Please enter 1, 2, 3, or 4.")
 
 
-#The function that is linked to 2.Help
-
+#The function that is linked to 2.Instructions
+def display_help():
+    os.system('clear')
+    print("Memory Game Instructions:")
+    print("1. The game board contains 8 pairs of hidden symbols.")
+    print("2. On each turn, you can reveal two cards.")
+    print("3. If the symbols on the cards match, they remain revealed.")
+    print("4. If they do not match, they will be hidden again.")
+    print("5. The game continues until all pairs are matched.")
+    print("\nPress Enter to return to the menu.")
+    input()  # Waits for the user to press Enter sp that they can go back to the menu
