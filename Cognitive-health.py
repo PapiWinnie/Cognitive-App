@@ -16,3 +16,24 @@ random.shuffle(numbers)
 letters = ['A','F','H','U','L','T','C','Z']
 letters = letters * 2 #to make pairs
 random.shuffle(letters)
+
+#the menu display of the game 
+def display_menu():
+    while True:
+        os.system('clear')
+        print("----------------------------------------------------------------------------------------------------------------------------"
+        print("Welcome to the Memory Game!")
+        print("1. Start Game")
+        print("2. Instructions")
+        print("3. About")
+        print("4. Exit")
+
+        choice = input("Enter your choice (1-4): ")
+        if choice in ['1', '2', '3', '4']:
+            return choice
+        else:
+            print("Invalid choice. Please enter 1, 2, 3, or 4.")
+
+
+#The function that is linked to 2.Help
+
