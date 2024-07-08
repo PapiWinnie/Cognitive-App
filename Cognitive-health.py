@@ -36,7 +36,7 @@ def display_menu():
 
 
 #The function that is linked to 2.Instructions
-def display_help():
+def display_instructions():
     os.system('clear')
     print("Memory Game Instructions:")
     print("1. The game board contains 8 pairs of hidden symbols.")
@@ -46,3 +46,14 @@ def display_help():
     print("5. The game continues until all pairs are matched.")
     print("\nPress Enter to return to the menu.")
     input()  # Waits for the user to press Enter sp that they can go back to the menu
+
+#The fuctiob that is linked to 3.about
+def display_about():
+    os.system('clear')
+    print("About Memory Game:")
+    print("Version: 1.0")
+    print("Author: NegPod 9")
+    print("This game is a simple memory matching game developed as a project that aims to support cognitive health for all in Africa and beyond.")
+    print("\nPress Enter to return to the menu.")
+    input()  # Wait for the user to press Enter
+
