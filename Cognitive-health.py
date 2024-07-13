@@ -53,7 +53,7 @@ def display_instructions():
     print("\nPress Enter to return to the menu.")
     input()  # Waits for the user to press Enter sp that they can go back to the menu
 
-#The fuctiob that is linked to 3.about
+#The fuction that is linked to 3.about
 def display_about():
     os.system('clear')
     print("📜 About Memory Game:")
@@ -64,7 +64,7 @@ def display_about():
     input()  # Wait for the user to press Enter
 
 #The loop that includes the menu and the gane together so that it can run together 
-#Zrite the rest of your code before this not after this needs to come last
+#Write the rest of your code before this not after this needs to come last
 if __name__ == "__main__":
     while True:
         choice = display_menu()
