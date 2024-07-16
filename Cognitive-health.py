@@ -21,6 +21,11 @@ letters = ['A','F','H','U','L','T','C','Z']
 letters = letters * 2 #to make pairs
 random.shuffle(letters)
 
+#Output the shuffled lists 
+print("Shuffled Symbols:", symbols)
+print("Shuffled Numbers:", numbers)
+print("Shuffled Letters:", letters)
+
 #the menu display of the game 
 def display_menu():
     while True:
