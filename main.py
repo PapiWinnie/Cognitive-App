@@ -33,6 +33,7 @@ def all_matched(revealed):
 
 # Main game loop
 moves = 0
+start_time = time.time()
 while not all_matched(revealed):
     os.system('clear')  # Clear the console (use 'cls' for Windows)
     print_board(board, revealed)
@@ -67,4 +68,8 @@ while not all_matched(revealed):
 # End of the game
 os.system('clear')
 print_board(board, revealed)
+end_time = time.time()
+elapsed_time =end_time - start_time
 print(f'Congratulations! You completed the game in {moves} moves.')
+player_name =input("Enter your name for the leaderboard:")
+update_leaderboard(player_name,elapsed_time)
