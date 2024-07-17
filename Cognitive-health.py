@@ -36,13 +36,14 @@ def display_menu():
         print("1. Start Game")
         print("2. Instructions")
         print("3. About")
-        print("4. Exit")
+        print("4. View Leaderboard")
+        print("5.Exit")
 
-        choice = input("Enter your choice (1-4): ")
-        if choice in ['1', '2', '3', '4']:
+        choice = input("Enter your choice (1-5): ")
+        if choice in ['1', '2', '3', '4','5']:
             return choice
         else:
-            print("Invalid choice. Please enter 1, 2, 3, or 4.")
+            print("Invalid choice. Please enter 1, 2, 3,4 or 5.")
 
 
 #The function that is linked to 2.Instructions
