@@ -1,7 +1,6 @@
 import random
 import os
 import time
-from leaderboard import update_leaderboard, display_leaderboard
 # Define the symbols for the cards
 symbols = ['🍎', '🍌', '🍓', '🍇', '🍒', '🍍', '🍉', '🥝']
 symbols = symbols * 2  # We need pairs
